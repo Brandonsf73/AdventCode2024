@@ -43,6 +43,16 @@ int main(int argc, char* argv[])
 		long long multTotalFlow = three.preformMult(true);
 		std::cout << "Mutiplication total with Flow: " << multTotalFlow << std::endl;
 	}
+	else if (day == 4)
+	{
+		DayFour four(argv[2]);
+
+		int xmasTotal = four.findXmas();
+		std::cout << "Instances of Xmas: " << xmasTotal << std::endl;
+
+		int masTotal = four.findMasX();
+		std::cout << "Intsances of Mas in X: " << masTotal << std::endl;
+	}
 
 	return 0;
 }
