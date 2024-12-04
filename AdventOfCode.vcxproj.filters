@@ -27,6 +27,9 @@
     <ClCompile Include="DayThree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DayFour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DayHeaders.h">
@@ -44,6 +47,9 @@
     <ClInclude Include="DayThree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DayFour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="DayOneInput.txt">
@@ -53,6 +59,9 @@
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="DayThreeInput.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="DayFourInput.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
